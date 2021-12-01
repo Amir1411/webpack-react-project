@@ -1,4 +1,9 @@
 const person = {
     name: 'John',
 }
-console.log(person.name);
+const person1 = {
+    ...person,
+    age: 30
+}
+console.log(person);
+console.log(person1);
